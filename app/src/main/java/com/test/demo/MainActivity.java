@@ -100,6 +100,5 @@ public class MainActivity extends AppCompatActivity {
         public Fragment getItem(int position) {
             return fragmentList.get(position);
         }
-        startActivity(new Intent(this, haha.class));
     }
 }
